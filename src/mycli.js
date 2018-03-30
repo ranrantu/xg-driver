@@ -1,0 +1,1 @@
+require('graceful-process')({ logger: console, label: 'mycli-child-cmd' });

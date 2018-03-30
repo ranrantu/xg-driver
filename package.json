@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin":{
+    "xg-driver":"./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.3.2"
+    "chalk": "^2.3.2",
+    "cli-spinner": "^0.2.8",
+    "commander": "^2.15.1",
+    "graceful-process": "^1.2.0"
   }
 }
