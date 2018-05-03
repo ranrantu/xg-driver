@@ -1,10 +1,10 @@
 {
   "name": "xg-driver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "xg-driver": "./src/index.js"
+    "xg-driver": "./bin/xg-driver.js"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
